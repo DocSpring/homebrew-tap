@@ -1,25 +1,25 @@
 class Docspring < Formula
   desc "DocSpring's command-line interface: fill PDF and Word templates, generate PDFs and manage templates from your terminal, scripts and CI"
   homepage "https://docspring.com/docs/cli/"
-  version "1.0.0"
+  version "1.0.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.0/docspring-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f68247af4c2e373966c4181dfe3b5f0035ad3ad326d6ca797ae1fcfb50d73890"
+      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.1/docspring-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "bfbb18a14b5c15a344dc9f79b7c635521e6418b08d80204283b2d214cc350a0e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.0/docspring-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "507d4c8822195bd40aca4114e57ed782700666db6e87a1fed9bb349dc95300ae"
+      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.1/docspring-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "97acc0a25f3562925e4c338311133c5c8f07eb8122ffb3f90489ea770ce2add9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.0/docspring-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "82f1252a6309f32498256ebe6d8b6ecc7966c69f29c4f5cfbb40ef6e47450b7b"
+      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.1/docspring-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "a42390805b9a51d73a214dff62f5e648ad0c2b6e59a5bfb1ae0ad3e62d0f6159"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.0/docspring-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "d9640bfa932e37ba74fcdd6ff59c3174c90c4b0f758d8ee8a40847c3acdc5105"
+      url "https://github.com/DocSpring/docspring-cli/releases/download/v1.0.1/docspring-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "e146c00b496f91289d71d7347090ea8b87cc0c42625763e31379abd401dd71b7"
     end
   end
   license "MIT"
