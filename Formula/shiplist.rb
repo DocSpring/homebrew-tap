@@ -5,23 +5,23 @@ class Shiplist < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.0/shiplist-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b31fed31d35538faf880e83e7b69d02164a92032802afde10b38423d4a1ebbbe"
+      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.1/shiplist-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f7d5485291461aecfb5dab52c0601896c12754595cd7caa22f3186e0b403348e"
     end
     on_intel do
-      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.0/shiplist-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6e839a49132258742d70862c538cc3842b3025bae24d623715cee3752af86180"
+      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.1/shiplist-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4094b25fc4d413edec4b79d1197e7d768d3861744d3adc159b20daabb9cc2682"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.0/shiplist-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6761627be92e840e544d31bc5f9be171762a9eee94adf6d0d1aab1bb740908c7"
+      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.1/shiplist-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "924f7ee8cd83f38693f80a6005b1459bde2d5303c5a1ac9439ff4d323e1a87cf"
     end
     on_intel do
-      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.0/shiplist-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "800f0f149aefe68df1302d50a268f5f13fc9af6ba530d48fb49da8df76bbf5ac"
+      url "https://github.com/DocSpring/shiplist/releases/download/v0.1.1/shiplist-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "27559814f7f8155cc78310bc468fb1e67a92bf327ec15a3c0cf2539f0a12ffd2"
     end
   end
 
